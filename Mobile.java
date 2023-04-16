@@ -1,22 +1,17 @@
-package week1.day1;
+package week3.day1;
 
 public class Mobile {
-
-	
+	protected void sendMsg()
+	{
+		System.out.println("I am calling you");
+	}
+	protected void makeCall()
+	{
+		System.out.println("Please accept my call");
+	}
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		public void sendSMS()
-		{
-			System.out.println("From oppo");
-		}
-		public void makeCall()
-		{
-			System.out.println("Calling my friend");
-		}
-		public static void main(String[] args) {
-			Mobile mine= new Mobile();
-			mine.sendSMS();
-			mine.makeCall();
-		}
+
 	}
 
-
+}
